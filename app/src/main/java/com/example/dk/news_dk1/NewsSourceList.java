@@ -14,10 +14,21 @@ public class NewsSourceList {
 
 
 
+    public NewsSourceList(String name, String id) {
+
+        this.name = name;
+        this.id = id;
+    }
+
     public NewsSourceList(String id, String name, Urls urlsToLogos) {
         this.id = id;
         this.name = name;
         this.urlsToLogos=urlsToLogos;
+    }
+    public NewsSourceList(String id, String name, String urlsToLogos) {
+        this.id = id;
+        this.name = name;
+        this.url=urlsToLogos;
     }
 
     public String getName() {

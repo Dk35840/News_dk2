@@ -23,12 +23,13 @@ public class FrontAdapter extends RecyclerView.Adapter<FrontHolder>{
 
     private Context context;
     private List<NewsSourceList> newsSourceLists;
-
+            private List<String> news;
 
     public FrontAdapter(Context context, List<NewsSourceList> newsSourceLists) {
         this.context = context;
         this.newsSourceLists = newsSourceLists;
     }
+
 
     @Override
     public FrontHolder onCreateViewHolder(ViewGroup parent, int viewType) {
