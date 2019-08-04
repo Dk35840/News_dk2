@@ -30,6 +30,8 @@ public class NewsList {
     }
 
     public String getAuthor() {
+        
+        
         return author;
     }
 
